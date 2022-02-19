@@ -8,12 +8,12 @@ Repo to do some analysis on a ecommerce customer data
 git clone  https://github.com/sendwyre/commerce-analytics.git 
 ```
 
-1. cd into project
+2. cd into project
 ```bash 
 cd commerce-analytics
 ```
 
-1. Create Isolated Environment within project folder
+3. Create Isolated Environment within project folder
 ```bash 
 python3 -m  pip install virtualenv
 ``` 
@@ -21,18 +21,23 @@ python3 -m  pip install virtualenv
 python3 -m virtualenv env
 ``` 
 
-1. Activate virtualenv
+4. Activate virtualenv
 ```bash
 source env/bin/activate
 ```
 
-1. Install dependencies 
+5. Install dependencies 
 ```bash 
 pip3 install -r requirments.txt
 ```
 
-1. Download all csv data into data/ folder
+6. Download all csv data into data/ folder
 
+7. change config.ini to 
+```bash
+[ANALYSIS]
+TEST_MODE=no
+``` 
 
 ## Running the tool:
 
