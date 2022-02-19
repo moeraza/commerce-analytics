@@ -12,7 +12,7 @@ python3 main.py
 
 1. Clone project
 ```bash
-git clone  https://github.com/sendwyre/commerce-analytics.git 
+git clone  https://github.com/moeraza/commerce-analytics
 ```
 
 2. cd into project
@@ -45,8 +45,3 @@ pip3 install -r requirments.txt
 [ANALYSIS]
 TEST_MODE=No
 ``` 
-
-## Testing the code:
-```bash 
-pytest test/*
-```
