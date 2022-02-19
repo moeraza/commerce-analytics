@@ -8,7 +8,7 @@ def store_logs(curr_dt=curr_dt,):
     '''
         This permits us to store logs locally, good for development
     '''
-    logging.basicConfig(filename='log/{0}.log'.format(curr_dt)
+    logging.basicConfig(filename='logs/{0}.log'.format(curr_dt)
                         ,filemode='a', format='%(asctime)s - %(levelname)s: %(message)s'
                         ,datefmt='%d-%b-%y %H:%M:%S'
                         ,level=logging.INFO
