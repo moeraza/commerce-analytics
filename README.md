@@ -1,6 +1,13 @@
 # commerce-analytics
 
 Repo to do some analysis on a ecommerce customer data
+
+## Running the analysis:
+
+```bash 
+python3 main.py
+```
+
 ## Setting Up:
 
 1. Clone project
@@ -36,14 +43,8 @@ pip3 install -r requirments.txt
 7. change config.ini to 
 ```bash
 [ANALYSIS]
-TEST_MODE=no
+TEST_MODE=No
 ``` 
-
-## Running the tool:
-
-```bash 
-python3 main.py
-```
 
 ## Testing the code:
 ```bash 

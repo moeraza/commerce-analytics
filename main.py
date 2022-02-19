@@ -5,13 +5,12 @@ from core.log import *
 
 def main():
     store_logs()
-    
+
     df_interactions, df_items = load_data()
     df_combined = process_data(df_interactions=df_interactions, df_items=df_items)
     del df_interactions, df_items
     final_df = build_final_table(df_combined)
-    print(final_df)
-    return final_df
+    final_df.to_csv('data/final_table.csv',index=False)
 
 if __name__=='__main__':
     main()
